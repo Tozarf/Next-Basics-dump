@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Space_Mono } from "next/font/google";
 import "./globals.css";
 
-const space_mono = Space_Mono({ weight: "400" });
+const space_mono = Space_Mono({ subsets: ["latin"], weight: "400" });
 
 export const metadata: Metadata = {
   title: "Fausto's Home page",
